@@ -306,11 +306,11 @@ ul#menu li:hover a
   background: -o-linear-gradient(#43A9FF, #0043A8);
   background: -webkit-linear-gradient(#43A9FF, #0043A8);
   border-radius: 15px 15px 15px 15px;
-  -moz-border-radius: 15px 15px 15px 15px;
-  -webkit-border: 15px 15px 15px 15px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;}
+  button:hover {
+  background: rgba(0,0,0,0);
+  color: #3a7999;
+  box-shadow: inset 0 0 0 3px #3a7999;
+}
   
 .button_small a
 { color: #FFF;
